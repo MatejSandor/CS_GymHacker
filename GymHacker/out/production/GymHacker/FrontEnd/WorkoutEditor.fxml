@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="450.0" style="-fx-background-color: #0070A1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BackEnd.WorkoutEditor">
+   <children>
+      <Label layoutX="154.0" layoutY="20.0" text="WORKOUTS" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Extrabold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="30.0" layoutY="282.0" mnemonicParsing="false" onAction="#addExercise" prefHeight="20.0" prefWidth="100.0" style="-fx-background-color: #00031B; -fx-background-radius: 8px;" styleClass="menuButton" text="ADD" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="30.0" layoutY="324.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" style="-fx-background-color: #00031B; -fx-background-radius: 8px;" styleClass="menuButton" text="EDIT" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="30.0" layoutY="242.0" mnemonicParsing="false" onAction="#saveWorkout" prefHeight="20.0" prefWidth="100.0" style="-fx-background-color: #00031B; -fx-background-radius: 8px;" styleClass="menuButton" text="SAVE" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Semibold" size="12.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableWorkout" layoutX="154.0" layoutY="81.0" prefHeight="268.0" prefWidth="262.0">
+         <columns>
+            <TableColumn fx:id="nameColumn" prefWidth="131.199951171875" styleClass="column-header-background" text="NAME" />
+            <TableColumn fx:id="targetColumn" prefWidth="130.40008544921875" styleClass="column-header-background" text="TARGET" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

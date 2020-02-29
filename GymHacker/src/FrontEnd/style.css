@@ -1,0 +1,65 @@
+.root {
+    -fx-background-color: #003180;
+}
+
+
+.menu-button:hover {
+    -fx-background-color: #003180;
+    -fx-background-radius: 0;
+}
+
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-base: transparent;
+    -fx-focus-color: #003180;
+}
+
+
+.table-view .column-header{
+    -fx-border-color:  #0070A1;
+    -fx-border-width: 0.3px;
+    -fx-background-color: #003180;
+}
+
+.table-view {
+    -fx-border-color:  #0070A1;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+
+}
+
+.table-row-cell{
+    -fx-background-color: white;
+    -fx-table-cell-border-color: white;
+  }
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-alignment: CENTER;
+    -fx-border-color:  #0070A1;
+    -fx-border-width: 0.5px;
+    -fx-font-family: 'Open Sans Light';
+}
+
+
+.table-view *.scroll-bar:horizontal *.increment-button,
+.table-view *.scroll-bar:horizontal *.decrement-button {
+  -fx-background-color: null;
+  -fx-background-radius: 0;
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
+
+.table-view *.scroll-bar:horizontal *.increment-arrow,
+.table-view *.scroll-bar:horizontal *.decrement-arrow {
+  -fx-background-color: null;
+  -fx-background-radius: 0;
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+  -fx-shape: null;
+}

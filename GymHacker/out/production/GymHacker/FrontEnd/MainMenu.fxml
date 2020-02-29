@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="675.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BackEnd.MainMenu">
+   <children>
+      <AnchorPane fx:id="defaultPane" layoutX="226.0" prefHeight="400.0" prefWidth="450.0" style="-fx-background-color: #0070A1;">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="37.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="225.0" style="-fx-background-color: #00031B;">
+         <children>
+            <Button layoutY="152.0" mnemonicParsing="false" onAction="#loadExerciseScreen" prefHeight="42.0" prefWidth="226.0" styleClass="menu-button" text="Exercises" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu_button" layoutY="194.0" mnemonicParsing="false" onAction="#loadWorkoutsScreen" prefHeight="42.0" prefWidth="226.0" styleClass="menu-button" text="Workouts" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans" size="14.0" />
+               </font></Button>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="24.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/WorkoutsIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="24.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/homeIcon.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="90.0" layoutX="12.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+            <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="12.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/PixelCharacter.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="3.0" arcWidth="5.0" fill="#ff3636" height="7.0" layoutX="119.0" layoutY="61.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="90.0" />
+            <Rectangle arcHeight="3.0" arcWidth="5.0" fill="#ffde07" height="7.0" layoutX="119.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="90.0" />
+            <Rectangle arcHeight="3.0" arcWidth="5.0" fill="#54eb00" height="7.0" layoutX="119.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="90.0" />
+            <ToggleButton layoutY="236.0" minHeight="40.0" mnemonicParsing="false" onAction="#loadOtherScreen" prefWidth="225.0" styleClass="menu-button" text="Other" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans" size="14.0" />
+               </font>
+            </ToggleButton>
+            <Label layoutX="119.0" layoutY="23.0" text="Matej" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Extrabold" size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="119.0" layoutY="35.0" text="Male" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Light" size="10.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="24.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../src/FrontEnd/Images/IconOther.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button fx:id="closingButton" layoutX="596.0" layoutY="20.0" mnemonicParsing="false" onAction="#closeApplication" style="-fx-background-color: transparent;" text="CLOSE" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="450.0" style="-fx-background-color: #0070A1;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BackEnd.OtherScreen">
+   <children>
+      <Label layoutX="185.0" layoutY="14.0" text="OTHER" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Extrabold" size="24.0" />
+         </font>
+      </Label>
+      <Arc fill="#54eb00" layoutX="334.0" layoutY="114.0" length="340.0" radiusX="42.0" radiusY="42.0" startAngle="45.0" stroke="TRANSPARENT" strokeType="INSIDE" type="ROUND" />
+      <Circle fill="#0070a1" layoutX="334.0" layoutY="114.0" radius="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Arc fill="#ffde07" layoutX="232.0" layoutY="115.0" length="200.0" radiusX="42.0" radiusY="42.0" startAngle="45.0" stroke="TRANSPARENT" strokeType="INSIDE" type="ROUND" />
+      <Circle fill="#0070a1" layoutX="232.0" layoutY="115.0" radius="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Arc fill="#ff3636" layoutX="115.0" layoutY="115.0" length="300.0" radiusX="42.0" radiusY="42.0" startAngle="45.0" stroke="TRANSPARENT" strokeType="INSIDE" type="ROUND" />
+      <Circle fill="#0070a1" layoutX="115.0" layoutY="115.0" radius="24.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <LineChart layoutY="199.0" prefHeight="200.0" prefWidth="450.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis autoRanging="false" side="LEFT" tickLabelFill="WHITE">
+               <tickLabelFont>
+                  <Font name="Open Sans" size="8.0" />
+               </tickLabelFont>
+            </NumberAxis>
+        </yAxis>
+      </LineChart>
+      <Label layoutX="167.0" layoutY="168.0" text="PROGRESS" textFill="WHITE">
+         <font>
+            <Font name="Open Sans Light" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

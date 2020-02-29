@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BackEnd.MainMenu">
+   <children>
+      <AnchorPane layoutX="225.0" prefHeight="400.0" prefWidth="620.0" style="-fx-background-color: #0070A1;" styleClass="root">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="37.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="223.0" style="-fx-background-color: #00031B;">
+         <children>
+            <Button layoutY="152.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="226.0" style="-fx-background-color: transparent;" styleClass="menuButton" text="Exercises" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutY="194.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="226.0" style="-fx-background-color: transparent; -fx-background-radius: 0;" styleClass="menuButton" text="Workouts" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans" size="14.0" />
+               </font></Button>
+            <Button layoutY="235.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="226.0" style="-fx-background-color: transparent;" styleClass="menuButton" text="Other" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans" size="14.0" />
+               </font></Button>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="24.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/WorkoutsIcon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="24.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/homeIcon.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIGHTGRAY" height="90.0" layoutX="12.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+            <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="12.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/PixelCharacter.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="3.0" arcWidth="5.0" fill="#ff3636" height="7.0" layoutX="119.0" layoutY="61.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="90.0" />
+            <Rectangle arcHeight="3.0" arcWidth="5.0" fill="#ffde07" height="7.0" layoutX="119.0" layoutY="77.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="90.0" />
+            <Rectangle arcHeight="3.0" arcWidth="5.0" fill="#54eb00" height="7.0" layoutX="119.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="90.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
