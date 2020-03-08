@@ -63,6 +63,7 @@ public class Login extends Application implements Initializable {
 
         DataManager dataManager = new DataManager();
         window = primaryStage;
+        window.initStyle(StageStyle.UNDECORATED);
         window.setTitle("GymHacker");
         Parent root = FXMLLoader.load(getClass().getResource("/FrontEnd/Login.fxml"));
         root.getStylesheets().add(getClass().getResource("/FrontEnd/style.css").toExternalForm());

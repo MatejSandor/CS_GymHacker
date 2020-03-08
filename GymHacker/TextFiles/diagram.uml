@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="296.0">BackEnd.Login</node>
+    <node x="0.0" y="222.0">BackEnd.MainMenu</node>
+    <node x="0.0" y="74.0">BackEnd.WorkoutEditor</node>
+    <node x="150.0" y="222.0">BackEnd.Workout</node>
+    <node x="0.0" y="148.0">BackEnd.DataManager</node>
+    <node x="172.0" y="148.0">BackEnd.Other.Security</node>
+    <node x="0.0" y="0.0">BackEnd.ExerciseContent</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="215.5" y="190.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+

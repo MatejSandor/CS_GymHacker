@@ -12,7 +12,6 @@ public class Security {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/gymhacker","root","");
             return con;
         } catch (ClassNotFoundException | SQLException e) {
-            System.out.println("Something");
             return null;
 
         } catch (IllegalAccessException e) {
